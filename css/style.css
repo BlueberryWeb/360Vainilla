@@ -1,0 +1,98 @@
+html, body {
+    width: 100% !important;
+    overflow-x: hidden;
+}
+.a_none_style{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'IBM Plex Sans Bold';
+    src: url("fonts/IBMPlexSans-Bold.ttf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'IBM Plex Sans Regular';
+    src: url("fonts/IBMPlexSans-Regular.ttf"); 
+    font-display: swap;
+}
+.regular{
+    font-family: 'IBM Plex Sans Regular';
+}
+.bold{
+    font-family: 'IBM Plex Sans Bold';
+}
+/* BACKGROUNDS */
+.bg-index{
+    background-image: url('../img/bg-index.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    border-color: #000000;
+}
+.bg-negro{
+    background-color: #000000;
+    color: #fff;
+    border-color: #000000;
+}
+/* TERMINAN LOS BACKGROUNDS */
+/* TEXTOS */
+.txt-index{
+    margin-top:25rem;
+    text-align: center;
+}
+/* TERMINAN TEXTOS */
+/* ICONOS E IMÁGENES */
+.logo-medio{
+    width: 200px;
+}
+.mail-menu img{
+    width: 20px;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+}
+.telefono-menu img{
+    width: 18px;
+    margin-right: 1rem;
+}
+/* TERMINAN ICONOS E IMÁGENES */ 
+/* BOTONES */
+.btn-conoce{
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 0;
+    width: 200px;
+}
+/* TERMINAN BOTONES */
+/* ANIMACIÓN DEL SCROLL */
+.scroll-down i{
+    opacity: 0;
+    color: white;
+    font-size: 1.5rem;
+    animation: iconAnimation 1.5s infinite; 
+}
+@keyframes iconAnimation {
+    0% {
+      transform: translate(0,0); 
+      opacity: 0;
+    }
+    33.33%{
+      transform: translate(0,10px); 
+      opacity: 0.3;
+    }
+    66.66% {
+      transform: translate(0,20px);
+      opacity: 0.6;
+    }
+    99.99%{
+      transform: translate(0,30px);
+      opacity: 0.9; 
+    }
+    100%{
+      transform: translate(0,0); 
+      opacity: 0.9;
+    }
+  }
+/* TERMINA LA ANIMACIÓN DEL SCROLL */
