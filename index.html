@@ -4,17 +4,19 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="despcription" content="A company who has given human resource solutions for over 10 years."/>
-    <meta name="keywords" content="Human resources, Hr solutions, Buisness solutions, Human talent, Human resource solutions, Worldwide solutions, Global business solutions"/>
+    <meta name="despcription" content="Implementamos políticas y procesos que dan estructura y estrategia a departamentos de recursos humanos a través de métodos probados y herramientas digitales."/>
+    <meta name="keywords" content="Recursos Humanos, Implementación, Colaboradores, Organización, Crecimiento comercial, Mayor productividad, Capital humano, Personal altamente efectivo, Administración del personal"/>
     <meta name="author" content="blueberry.mx"/>
     <meta name="robots" content="index,follow"/>
     <script src="https://kit.fontawesome.com/4514d9060c.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- LIBRERIA DE ANIMACIONES -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Beirat* 360</title>
 </head>
 <body>
-    <div class="bg-index">
+    <div class="bg-index" id="Inicio">
         <div class="container p-4">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-2">
@@ -26,34 +28,56 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-2">
                     <div class="mail-menu">
                         <img src="img/icono-mail.png" alt="contactanos en:" class="img-fluid float-start"/>
-                        <a href="mailto:" class="a_none_style text-white">
-                            <h6 class="regular">contacto@beirat.mx</h6>
+                        <a href="mailto:contacto@beirat.mx?Subject=Solicitar%20Informes%20Beirat" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                            <h6 class="regular">hello@beirat.mx</h6>
                         </a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-2">
                     <div class="telefono-menu">
                         <img src="img/icono-telefono.png" alt="contactanos al:" class="img-fluid float-start"/>
-                        <a href="tel:+523316790987" class="a_none_style text-white">
-                            <h6 class="regular">331 679 0987</h6>
+                        <a href="https://api.whatsapp.com/send?phone=523330045181" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                            <h6 class="regular">33 3004 5181</h6>
                         </a>
                     </div>
                     
                 </div>
             </div>
-            <div class="row">
-                <div class="txt-index">
-                    <h1 class="bold">Implementación de departamento de</h1>
-                    <h1 class="bold">recursos humanos de alta efectividad</h1>
-                    <p class="h5 regular">Gestión, control y estrategia en el capital </p>
-                    <p class="h5 regular">humano de las empresas.</p>
-                    <div class="py-3">
-                        <a href="" class="btn btn-primary btn-conoce">
-                            <h6 class="regular h6">Conoce más</h6>
-                        </a>
+            <div class="row" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1500">
+                <!-- VISTA WEB -->
+                <div class="d-none d-sm-none d-md-block">
+                    <div class="txt-index">
+                        <h1 class="bold">Implementación de departamento de</h1>
+                        <h1 class="bold">recursos humanos de alta efectividad</h1>
+                        <p class="h5 regular">Gestión, control y estrategia en el capital </p>
+                        <p class="h5 regular">humano de las empresas.</p>
+                        <div class="py-3">
+                            <a href="#conoce" class="btn btn-primary btn-conoce">
+                                <h6 class="regular h6">Conoce más</h6>
+                            </a>
+                        </div>
+                        <div class="scroll-down">
+                            <i class="fas fa-chevron-down fa-3x"></i>
+                        </div>
                     </div>
-                    <div class="scroll-down">
-                        <i class="fas fa-chevron-down fa-3x"></i>
+                </div>
+                <!-- VISTA CELULAR -->
+                <div class="d-block d-sm-block d-md-none">
+                    <div class="txt-index-cel">
+                        <div class="text-center">
+                            <h1 class="bold">Implementación de departamento de recursos humanos de alta efectividad</h1>
+                            <p class="h5 regular">Gestión, control y estrategia en el capital humano de las empresas.</p>
+                        </div>
+                        <div class="py-3 text-center">
+                            <a href="#conoce" class="btn btn-primary btn-conoce">
+                                <h6 class="regular h6">Conoce más</h6>
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <div class="scroll-down">
+                                <i class="fas fa-chevron-down fa-3x"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -61,21 +85,27 @@
     </div>
     <!-- PRODUCTIVIDAD, ESTANDARIZACIÓN Y GANACIAS -->
     <div class="bg-negro py-5">
-        <div class="container">
-            <div class="row">
-                <div class="text-center mt-5 mb-4">
+        <div class="container" id="conoce">
+            <div class="row" >
+                <div class="text-center mt-5 mb-4" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
                     <img src="img/logo-bco.png" alt="Beirat* 360" class="img-fluid logo-medio mb-3"/>
-                    <div class="">
+                    <div class="d-none d-sm-none d-md-block">
                         <h3 class="regular h4">Implementamos políticas y procesos que dan </h3>
                         <h3 class="bold h4">estructura y estrategia a departamentos de </h3>
                         <h3 class="regular h4"><b class="bold">recursos humanos </b>a través de métodos probados </h3>
-                        <h3 class="regular h4">y herramientas digitales.</h3>
+                        <h3 class="regular h4 mb-4">y herramientas digitales.</h3>
+                        <hr class="verde-gde">
+                    </div>
+                    <div class="d-block d-sm-block d-md-none">
+                        <h3 class="regular h4">Implementamos políticas y procesos que dan
+                        <b class="bold h4">estructura y estrategia a departamentos de recursos humanos</b> a través de métodos probados y herramientas digitales.</h3>
+                        <hr class="verde-gde">
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-3"></div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-2"></div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8">
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1300">
                             <div class="text-center">
                                 <img src="img/icono-estandarizacion.png" alt="Estandarización" class="img-fluid mb-3"/>
                                 <div class="">
@@ -92,7 +122,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1300">
                             <div class="text-center">
                                 <img src="img/icono-productividad.png" alt="Productividad" class="img-fluid mb-4"/>
                                 <div class="">
@@ -109,7 +139,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1300">
                             <div class="text-center">
                                 <img src="img/icono-ganancias.png" alt="Ganancias" class="img-fluid mb-4"/>
                                 <div class="">
@@ -128,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-3"></div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-2"></div>
             </div>
         </div>
     </div>
@@ -137,20 +167,34 @@
         <div class="row py-4">
             <div class="col-12 col-sm-12 col-md-12 col-lg-2"></div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-9">
-                <div class="row pt-5">
+                <div class="row pt-5" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-5">
-                        <div class="">
-                            <h6 class="regular">La importancia de un departamento de</h6>
-                            <h4 class="bold h3">Recursos Humanos</h4>
-                            <h4 class="bold h3">de alta efectividad</h4>
+                        <div class="d-none d-sm-none d-md-block">
+                            <h6 class="regular h5">La importancia de un departamento de</h6>
+                            <h4 class="bold h1">Recursos Humanos</h4>
+                            <h4 class="bold h1">de alta efectividad</h4>
+                        </div>
+                        <div class="d-block d-sm-block d-md-none">
+                            <h6 class="regular h5">La importancia de un departamento de</h6>
+                            <h4 class="bold h1">Recursos Humanos de alta efectividad</h4>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-7">
-                        <div class="regular txt-importancia">
-                            <p class="">Desarrollamos habilidades técnicas en el representante en el </p>
-                            <p class="">departamento de RRHH para responder favorablemente y con voluntad a </p>
-                            <p class="">los objetivos del desempeño y las oportunidades de la empresa.</p>
+                        <div class="d-none d-sm-none d-md-block">
+                            <div class="regular txt-importancia">
+                                <p class="h5">Desarrollamos habilidades técnicas en el representante en el </p>
+                                <p class="h5">departamento de RRHH para responder favorablemente  </p>
+                                <p class="h5"> y con voluntad a los objetivos del desempeño y las </p>
+                                <p class="h5"> oportunidades de la empresa.</p>
+                            </div>
                         </div>
+                        <div class="d-block d-sm-block d-md-none">
+                            <div class="regular ">
+                                <p class="">Desarrollamos habilidades técnicas en el representante en el 
+                                departamento de RRHH para responder favorablemente y con voluntad a 
+                                los objetivos del desempeño y las oportunidades de la empresa.</p>
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -164,13 +208,25 @@
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-1"></div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-10">
-                    <div class="text-center txt-contacto-1">
-                        <div class="mb-5 regular h4">
-                            <p>Lograr que una empresa genere <b class="bold"> más ventas, utilidades, clientes satisfechos o un crecimiento </b></p>
-                            <p><b class="bold">exponencial y sostenible </b> depende absolutamente de su equipo humano.</p>
+                    <div class="d-none d-sm-none d-md-block">
+                        <div class="text-center txt-contacto-1" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                            <div class="mb-5 regular h4">
+                                <p>Lograr que una empresa genere <b class="bold"> más ventas, utilidades, clientes satisfechos o un crecimiento </b></p>
+                                <p><b class="bold">exponencial y sostenible </b> depende absolutamente de su equipo humano.</p>
+                            </div>
+                            <img src="img/imagen-trabajadores.png" alt="Beirat* 360" class="img-fluid"/>
                         </div>
-                        <img src="img/imagen-trabajadores.png" alt="Beirat* 360" class="img-fluid"/>
                     </div>
+                    <div class="d-block d-sm-block d-md-none">
+                        <div class="text-center" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                            <div class="mb-5 regular h4">
+                                <p>Lograr que una empresa genere <b class="bold"> más ventas, utilidades, clientes satisfechos o un crecimiento exponencial y sostenible</b>
+                                depende absolutamente de su equipo humano.</p>
+                            </div>
+                            <img src="img/imagen-trabajadores.png" alt="Beirat* 360" class="img-fluid"/>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-1"></div>
             </div>
@@ -182,16 +238,16 @@
                 <div class="col-12 col-sm-12 co-md-12 col-lg-3"></div>
                 <div class="col-12 col-sm-12 co-md-12 col-lg-6">
                     <div class="contacto">
-                        <div class="">
-                            <h1 class="bold">Contáctanos</h1>
-                            <a href="tel:+523330045181" class="a_none_style text-white">
+                        <div class=" " data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                            <h1 class="bold mb-4">Contáctanos</h1>
+                            <a href="https://api.whatsapp.com/send?phone=523330045181" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
                                 <h5 class="bold">33 3004 5181</h5>
                             </a>
-                            <a href="mailto:hello@beirat.mx" class="a_none_style text-white">
-                                <h5 class="bold">hello@beirat.mx</h5>
+                            <a href="mailto:hello@beirat.mx" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                <h5 class="bold mb-5">hello@beirat.mx</h5>
                             </a>
                         </div>
-                        <form>
+                        <form class="" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                                     <div class="mb-5">
@@ -239,62 +295,71 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0">
                 <div class="margen-">
-                    <div class="bg-gris pt-4">
+                    <div class="bg-gris-eficiencia pt-3">
                         <div class="txt-gran-eficiencia">
-                            <h1 class="bold h3 pt-3">Gran eficiencia en el logro</h1>
-                            <h1 class="bold h3">de los objetivos</h1>
-                            <div class="mb-5 mt-4 regular">
-                                <p>La gran mayoría de las <b class="bold"> PyMes</b> se enfrentan a diario a </p>
-                                <p>situaciones que merman el logro de los objetivos </p>
-                                <p>planteados por Dirección General.</p>
+                            <div class="d-none d-sm-none d-md-block" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                                <h1 class="bold h1 pt-3">Gran eficiencia en el logro</h1>
+                                <h1 class="bold h1">de los objetivos</h1>
+                                <div class="mb-5 mt-4 regular h5">
+                                    <p>La gran mayoría de las <b class="bold"> PyMes</b> se enfrentan a diario a </p>
+                                    <p>situaciones que merman el logro de los objetivos </p>
+                                    <p>planteados por Dirección General.</p>
+                                </div>
                             </div>
+                            <div class="d-block d-sm-block d-md-none" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                                <h1 class="bold h3 pt-3">Gran eficiencia en el logro de los objetivos</h1>
+                                <div class="mb-5 mt-4 regular">
+                                    <p>La gran mayoría de las <b class="bold"> PyMes</b> se enfrentan a diario a situaciones que merman el logro de los objetivos planteados por Dirección General.</p>
+                                </div>
+                            </div>
+                            
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                    <div class="mb-5">
+                                    <div class="mb-5" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
                                         <p>Falta de</p>
                                         <p>políticas claras</p>
                                         <hr class="verde-ch">
                                     </div>
-                                    <div class="mb-5">
+                                    <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
                                         <p>Conflicto de </p>
                                         <p>Empleados</p>
                                         <hr class="verde-ch">
                                     </div>
-                                    <div class="mb-5">
+                                    <div class="mb-5"data-aos="fade-down" data-aos-delay="900" data-aos-duration="1300">
                                         <p>Falta de supervisión</p>
                                         <p>del desempeño</p>
                                         <hr class="verde-ch">
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                    <div class="mb-5">
+                                    <div class="mb-5" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
                                         <p>Documentación</p>
                                         <p>Inadecuada</p>
                                         <hr class="verde-ch">
                                     </div>
-                                    <div class="mb-5">
+                                    <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
                                         <p>Infracciones a la</p>
                                         <p>Ley del Trabajo</p>
                                         <hr class="verde-ch">
                                     </div>
-                                    <div class="mb-5">
+                                    <div class="mb-5" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1300">
                                         <p>Mala </p>
                                         <p>Comunicación</p>
                                         <hr class="verde-ch">
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                    <div class="mb-5">
+                                    <div class="mb-5" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
                                         <p>Errores de</p>
                                         <p>contratación</p>
                                         <hr class="verde-ch">
                                     </div>
-                                    <div class="mb-5">
+                                    <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
                                         <p>Errores en</p>
                                         <p>entrevistas</p>
                                         <hr class="verde-ch">
                                     </div>
-                                    <div class="mb-5">
+                                    <div class="mb-5" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1300">
                                         <p>Formación</p>
                                         <p>Insuficiente</p>
                                         <hr class="verde-ch">
@@ -305,7 +370,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
                 <div class="margen-img">
                     <img src="img/imagen-trabajador.png" alt="Beirat* 360" class="img-fluid"/>
                 </div>
@@ -313,73 +378,170 @@
         </div>
     </div>
     <!-- LO QUE NO SE MIDE NO SE MEJORA -->
-    <div class="bg-degradado">
+    <div class="bg-degradado mt-4">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
                     <img src="img/mano-celular.png" alt="Beirat* 360" class="img-fluid"/>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-1"></div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
-                    <div class="txt-medir-mejora">
-                        <h3 class="bold h1">Lo que no se mide,</h3>
-                        <h3 class="bold h1"> no se mejora.</h3>
-                        <div class="my-5">
-                            <p>Todas las empresas necesitan trabajar bajo un sistema que</p>
-                            <p>les permita no sólo <b class="bold">escalar comercialmente</b>, sino también </p>
-                            <p>medir de manera permanente los <b class="bold">indicadores de desempeño</b></p>
-                            <p><b class="bold">de los colaboradores</b> y así promover la <b class="bold">retención del talento </b></p>
-                            <p>a través del diseño de <b class="bold">planes de carrera estratégicos</b>.</p>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1300">
+                    <div class="d-none d-sm-none d-md-block">
+                        <div class="txt-medir-mejora">
+                            <h3 class="bold h1">Lo que no se mide,</h3>
+                            <h3 class="bold h1"> no se mejora.</h3>
+                            <div class="my-5 h5">
+                                <p>Todas las empresas necesitan trabajar bajo un sistema que</p>
+                                <p>les permita no sólo <b class="bold">escalar comercialmente</b>, sino también </p>
+                                <p>medir de manera permanente los <b class="bold">indicadores de desempeño</b></p>
+                                <p><b class="bold">de los colaboradores</b> y así promover la <b class="bold">retención del talento </b></p>
+                                <p>a través del diseño de <b class="bold">planes de carrera estratégicos</b>.</p>
+                            </div>
+                            <a href="https://api.whatsapp.com/send?phone=523330045181" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                <h5 class="bold h5">33 3004 5181</h5>
+                            </a>
+                            <a href="mailto:hello@beirat.mx?Subject=Solicitar%20Informes%20Beirat" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                <h5 class="bold h5">hello@beirat.mx</h5>
+                            </a>
                         </div>
-                        <a href="tel:+523330045181" class="a_none_style text-white">
-                            <h5 class="regular h6">33 3004 5181</h5>
-                        </a>
-                        <a href="mailto:hello@beirat.mx" class="a_none_style text-white">
-                            <h5 class="regular h6">hello@beirat.mx</h5>
-                        </a>
                     </div>
+                    <div class="d-block d-sm-block d-md-none">
+                        <div class="mb-4" >
+                            <h3 class="bold h1">Lo que no se mide, no se mejora.</h3>
+                            <div class="my-5 h5">
+                                <p>Todas las empresas necesitan trabajar bajo un sistema que les permita no sólo 
+                                    <b class="bold">escalar comercialmente</b>, sino también  
+                                    medir de manera permanente los <b class="bold">indicadores de desempeño</b>
+                                    <b class="bold">de los colaboradores</b> y así promover la <b class="bold">retención del talento </b>
+                                    a través del diseño de <b class="bold">planes de carrera estratégicos</b>.
+                                </p>
+                            </div>
+                            <a href="https://api.whatsapp.com/send?phone=523330045181" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                <h5 class="bold h5">33 3004 5181</h5>
+                            </a>
+                            <a href="mailto:hello@beirat.mx?Subject=Solicitar%20Informes%20Beirat" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                <h5 class="bold h5">hello@beirat.mx</h5>
+                            </a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
     </div>
     <!-- RESOLVEMOS LOS PROBLEMAS -->
-    <div class="container-fluid">
-        <div class="container-fluid pt-4">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0">
-                    <div class="margen-img">
-                        <img src="img/imagen-trabajador-2.png" alt="Beirat* 360" class="img-fluid"/>
+    <!-- VISTA WEB -->
+    <div class="d-none d-sm-none d-md-block">
+        <div class="container-fluid">
+            <div class="container-fluid pt-4">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                        <div class="margen-img">
+                            <img src="img/imagen-trabajador-2.png" alt="Beirat* 360" class="img-fluid"/>
+                        </div>
                     </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0">
+                        <div class="margen-2">
+                            <div class="bg-negro-problemas pt-5 pb-5">
+                                <div class="txt-gran-eficiencia py-4">
+                                    <div class="row pb-2" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                            <div class="mb-5">
+                                                <h1 class="bold h2 pt-3">Resolvemos</h1>
+                                                <h1 class="bold h2">los problemas</h1>
+                                                <h1 class="bold h2">frecuentes</h1>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                                            <div class="mb-5 mt-4 regular h5">
+                                                <p>Las consecuencias más recurrentes  </p>
+                                                <p>de la falta de un departamento</p>
+                                                <p> de recursos humano de alta</p>
+                                                <p> efectividad son las siguientes:</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 pt-4">
+                                            <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
+                                                <p>Falta de</p>
+                                                <p>políticas claras</p>
+                                                <hr class="verde-ch">
+                                            </div>
+                                            <div class="mb-5" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1300">
+                                                <p>Errores en el </p>
+                                                <p>reclutamiento</p>
+                                                <p>y selección</p>
+                                                <hr class="verde-ch">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 pt-4">
+                                            <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
+                                                <p>Falta de </p>
+                                                <p>supervisión</p>
+                                                <hr class="verde-ch">
+                                            </div>
+                                            <div class="mb-5 pt-4" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1300">
+                                                <p>Mala </p>
+                                                <p>comunicación</p>
+                                                <hr class="verde-ch">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                            <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
+                                                <p>Falta de </p>
+                                                <p>evaluación del </p>
+                                                <p>desempeño</p>
+                                                <hr class="verde-ch">
+                                            </div>
+                                            <div class="mb-5 pt-4" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1300">
+                                                <p>Formación</p>
+                                                <p>insuficiente</p>
+                                                <hr class="verde-ch">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0">
-                    <div class="margen-2">
-                        <div class="bg-negro pt-5 pb-4">
-                            <div class="txt-gran-eficiencia py-4">
-                                <div class="row pb-2">
+            </div>
+        </div>
+    </div>
+    <!-- VISTA CELULAR -->
+    <div class="d-block d-sm-block d-md-none">
+        <div class="bg-negro">
+            <div class="container-fluid mt-5">
+                <div class="row">
+                    <div class="">
+                        <img src="img/imagen-trabajador-2.png" alt="Beirat* 360" class="img-fluid" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300"/>
+                        <div class="bg-negro pt-5 pb-5">
+                            <div class=" py-4">
+                                <div class="row pb-2" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1300">
                                     <div class="col-12 col-sm-12 col-md-12 col-lg-5">
                                         <div class="mb-5">
-                                            <h1 class="bold h3 pt-3">Resolvemos</h1>
-                                            <h1 class="bold h3">los problemas</h1>
-                                            <h1 class="bold h3">frecuentes</h1>
+                                            <h1 class="bold h2 pt-3">Resolvemos los problemas frecuentes</h1>
                                         </div>
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-12 col-lg-7">
-                                        <div class="mb-5 mt-4 regular">
-                                            <p>Las consecuencias más recurrentes de  </p>
-                                            <p>la falta de un departamento de </p>
-                                            <p>recursos humano de alta efectividad </p>
-                                            <p>son las siguientes:</p>
+                                        <div class="mb-5 mt-4 regular h5">
+                                            <p>Las consecuencias más recurrentes de  
+                                                la falta de un departamento de 
+                                                recursos humano de alta efectividad 
+                                                son las siguientes:</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                        <div class="mb-5">
+                                        <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
                                             <p>Falta de</p>
                                             <p>políticas claras</p>
                                             <hr class="verde-ch">
                                         </div>
-                                        <div class="mb-5">
+                                        <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
                                             <p>Errores en el </p>
                                             <p>reclutamiento</p>
                                             <p>y selección</p>
@@ -387,25 +549,25 @@
                                         </div>
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                        <div class="mb-5">
+                                        <div class="mb-5" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1300">
                                             <p>Falta de </p>
                                             <p>supervisión</p>
                                             <hr class="verde-ch">
                                         </div>
-                                        <div class="mb-5">
+                                        <div class="mb-5" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1300">
                                             <p>Mala </p>
                                             <p>comunicación</p>
                                             <hr class="verde-ch">
                                         </div>
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                        <div class="mb-5">
+                                        <div class="mb-5" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1300">
                                             <p>Falta de </p>
                                             <p>evaluación del </p>
                                             <p>desempeño</p>
                                             <hr class="verde-ch">
                                         </div>
-                                        <div class="mb-5">
+                                        <div class="mb-5" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1300">
                                             <p>Formación</p>
                                             <p>insuficiente</p>
                                             <hr class="verde-ch">
@@ -416,127 +578,158 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
+    
     <!-- AUMENTAR LA PRODUCTIVIDAD -->
     <div class="container-fluid pt-5 pb-4">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                <div class="txt-aumentar-eficiencia margen- pt-5">
-                    <h6 class="regular">Aumentar la productividad y</h6>
-                    <h3 class="bold">Eficiencia</h3>
-                    <div class="my-5 regular">
-                        <p class="">Es posible, entonces, a partir de un análisis de la </p>
-                        <p class="">empresa, identificar la necesidad o urgencia de</p>
-                        <p class="">que cuente con un área de Recursos Humanos </p>
-                        <p class="">responsable de planificar y gestionar las </p>
-                        <p class="">respectivas actividades, a los fines de: propiciar </p>
-                        <p class="">el desarrollo de la misma, su productividad y su</p>
-                        <p class="">supervivencia y continuidad en el tiempo. </p>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                <div class="d-none d-sm-none d-md-block">
+                    <div class="txt-aumentar-eficiencia margen- pt-5">
+                        <h6 class="regular h5">Aumentar la productividad y</h6>
+                        <h3 class="bold h1">Eficiencia</h3>
+                        <div class="my-5 regular h5">
+                            <p class="">Es posible, entonces, a partir de un análisis de la </p>
+                            <p class="">empresa, identificar la necesidad o urgencia de</p>
+                            <p class="">que cuente con un área de Recursos Humanos </p>
+                            <p class="">responsable de planificar y gestionar las </p>
+                            <p class="">respectivas actividades, a los fines de: propiciar </p>
+                            <p class="">el desarrollo de la misma, su productividad y su</p>
+                            <p class="">supervivencia y continuidad en el tiempo. </p>
+                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=523330045181" class="a_none_style text-black" target="_blank" rel="noopener noreferrer">
+                            <h5 class="bold h5">33 3004 5181</h5>
+                        </a>
+                        <a href="mailto:hello@beirat.mx" class="a_none_style text-black" target="_blank" rel="noopener noreferrer">
+                            <h5 class="bold h5">hello@beirat.mx</h5>
+                        </a>
                     </div>
-                    <a href="tel:+523330045181" class="a_none_style text-black">
-                        <h5 class="regular h6">33 3004 5181</h5>
-                    </a>
-                    <a href="mailto:hello@beirat.mx" class="a_none_style text-black">
-                        <h5 class="regular h6">hello@beirat.mx</h5>
-                    </a>
                 </div>
+                <div class="d-block d-sm-block d-md-none">
+                    <div class="mb-4 pt-5">
+                        <h6 class="regular h5">Aumentar la productividad y</h6>
+                        <h3 class="bold h1">Eficiencia</h3>
+                        <div class="my-5 regular h5">
+                            <p class="">Es posible, entonces, a partir de un análisis de la 
+                                empresa, identificar la necesidad o urgencia de
+                                que cuente con un área de Recursos Humanos
+                                responsable de planificar y gestionar las 
+                                respectivas actividades, a los fines de: propiciar 
+                                el desarrollo de la misma, su productividad y su
+                                supervivencia y continuidad en el tiempo. </p>
+                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=523330045181" class="a_none_style text-black" target="_blank" rel="noopener noreferrer">
+                            <h5 class="bold h5">33 3004 5181</h5>
+                        </a>
+                        <a href="mailto:hello@beirat.mx" class="a_none_style text-black" target="_blank" rel="noopener noreferrer">
+                            <h5 class="bold h5">hello@beirat.mx</h5>
+                        </a>
+                    </div>
+                </div>
+                
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
-                <div class="margen-2">
-                    <img src="img/imagen-trabajadores-2.png" alt="Beirat* 360" class="img-fluid"/>
-                </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                <img src="img/imagen-trabajadores-2.jpeg" alt="Beirat* 360" class="img-fluid"/>
             </div>
         </div>
     </div>
     <!--- BENEFICIOS GARANTIZADOS -->
-    <div class="bg-degradado py-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                    <div class="margen-">
-                        <div class="computadora">
+    <div class="bg-degradado-beneficios py-5" id="Beneficios">
+        <div class="container-fluid computadora py-5">
+            <div class="row pb-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6" >
+                    <div class="d-none d-sm-none d-md-block">
+                        <div class="laptop" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
                             <img src="img/computadora.png" alt="Beirat* 360" class="img-fluid"/>
                         </div>
+                    </div>
+                    <div class="d-block d-sm-block d-md-none" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                        <img src="img/computadora.png" alt="Beirat* 360" class="img-fluid"/>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <div class="txt-beneficios">
-                        <h1 class="bold">Beneficios garantizados</h1>
-                        <div class="my-5">
-                            <p class="">Entre los beneficios de una correcta implementación de un departamento de</p>
-                            <p class="">Recursos Humanos de Alta Efectividad se encuentran:</p>
+                        <div class="" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                            <h1 class="bold display-5">Beneficios garantizados</h1>
+                            <hr class="verde-md">
+                            <div class="d-none d-sm-none d-md-block">
+                                <div class="my-5 h5">
+                                    <p class="">Entre los beneficios de una correcta implementación de un departamento de</p>
+                                    <p class="">Recursos Humanos de Alta Efectividad se encuentran:</p>
+                                </div>
+                            </div>
+                            <div class="d-block d-sm-block d-md-none">
+                                <div class="my-5 h5">
+                                    <p class="">Entre los beneficios de una correcta implementación de un departamento de
+                                        Recursos Humanos de Alta Efectividad se encuentran:</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                <div class="mb-5">
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1300">
                                     <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-4 me-3"/>
                                     <h6 class="">Crecimiento</h6>
                                     <h6 class="">Comercial</h6>
                                 </div>
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
+                                    <img src="img/icono-personal-activo.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
                                     <h6 class="">Personal</h6>
                                     <h6 class="">altamente</h6>
                                     <h6 class="">efectivo</h6>
                                 </div>
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-4 me-3"/>
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1300">
+                                    <img src="img/icono-plantilla-puestos.png" alt="crecimiento comercial" class="img-fluid float-start mb-4 me-3"/>
                                     <h6 class="">Plantilla de </h6>
                                     <h6 class="">puestos Completa</h6>
                                 </div>
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1300">
+                                    <img src="img/icono-gestion-efectiva.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
                                     <h6 class="">Gestión</h6>
                                     <h6 class="">efectiva de </h6>
                                     <h6 class="">contratación</h6>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-4 me-3"/>
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1300">
+                                    <img src="img/icono-retencion-talento.png" alt="crecimiento comercial" class="img-fluid float-start mb-4 me-3"/>
                                     <h6 class="">Retención de</h6>
                                     <h6 class="">Talento Humano</h6>
                                 </div>
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
+                                    <img src="img/icono-capital-humano.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
                                     <h6 class="">Capital </h6>
                                     <h6 class="">Humano</h6>
                                     <h6 class="">capacitado</h6>
                                 </div>
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-4 me-3"/>
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1300">
+                                    <img src="img/icono-disminucion-rotacion.png" alt="crecimiento comercial" class="img-fluid float-start mb-4 me-3"/>
                                     <h6 class="">Disminución de </h6>
                                     <h6 class="">Rotación de Personal</h6>
                                 </div>
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-4 me-3"/>
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1300">
+                                    <img src="img/icono-sistematizacion-digitilizacion.png" alt="crecimiento comercial" class="img-fluid float-start mb-4 me-3"/>
                                     <h6 class="">Mayor</h6>
                                     <h6 class="">Productividad</h6>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1300">
+                                    <img src="img/icono-control-de-incidencias.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
                                     <h6 class="">Control de</h6>
                                     <h6 class="">Incidencias y</h6>
                                     <h6 class="">desarrollo de</h6>
                                 </div>
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
+                                    <img src="img/icono-sistematizacion-digitilizacion.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
                                     <h6 class="">Sistematización</h6>
                                     <h6 class="">y Digitalización</h6>
                                     <h6 class="">de Documentos</h6>
                                 </div>
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-4 me-3"/>
-                                    <h6 class="">Crecimiento</h6>
-                                    <h6 class="">Comercial</h6>
-                                </div>
-                                <div class="mb-5">
-                                    <img src="img/icono-crecimiento-comercial.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
+                                <div class="mb-5" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1300">
+                                    <img src="img/icono-digitilizacion-.png" alt="crecimiento comercial" class="img-fluid float-start mb-5 me-3"/>
                                     <h6 class="">Digitalización de</h6>
                                     <h6 class="">la Administración</h6>
                                     <h6 class="">del Personal</h6>
@@ -549,7 +742,248 @@
             </div>
         </div>
     </div>
+    <!--- METODOLOGÍA DE IMPLEMENTACIÓN -->
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-1"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10">
+                <div class="row mb-4" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5" >
+                        <div class="">
+                            <h6 class="regular h5">Metodología de</h6>
+                            <h1 class="bold">Implementación</h1>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                        <div class="d-none d-sm-none d-md-block">
+                            <div class="txt-metodologia regular h5">
+                                <p class="">Dentro del proceso de <b class="bold">Implementación del Departamento de </b></p>
+                                <p class="bold">Recursos Humanos de Alta Efectividad <b class="regular">existen bloques  o</b></p>
+                                <p class="">  <b class="bold">subsistemas consecutivos</b> que nos permiten estructurar de</p>
+                                <p class="">  manera correcta el proyecto.</p>
+                            </div>
+                        </div>
+                        <div class="d-block d-sm-block d-md-none">
+                            <div class="regular">
+                                <p class="">Dentro del proceso de <b class="bold">Implementación del Departamento de Recursos humanos
+                                    de Alta Efectividad </b> existen bloques o <b class="bold">subsistemas consecutivos</b> que nos
+                                    permiten estructurar de manera correcta el proyecto.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="text-center mb-4" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1300">
+                    <img src="img/metodologia.png" alt="Beirat* 360" class="img-fluid"/>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-2" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1300">
+                        <div class="txt-metodologia my-4">
+                            <p class="regular">Subsistema de </p>
+                            <p class="bold">Estructura de </p>
+                            <p class="bold">RRHH</p>
+                            <hr class="verde-ch">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-2" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
+                        <div class="txt-metodologia my-4">
+                            <p class="regular">Subsistema de </p>
+                            <p class="bold">Políticas y </p>
+                            <p class="bold">Documentación</p>
+                            <hr class="verde-ch">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-2" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1300">
+                        <div class="txt-metodologia my-4">
+                            <p class="regular">Subsistema de</p>
+                            <p class="bold">Implementación </p>
+                            <p class="bold">Digital</p>
+                            <hr class="verde-ch">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-2" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1300">
+                        <div class="txt-metodologia my-4">
+                            <p class="regular">Subsistema de </p>
+                            <p class="bold">Contratación y </p>
+                            <p class="bold">Marco Legal</p>
+                            <hr class="verde-ch">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1300">
+                        <div class="txt-metodologia my-4">
+                            <p class="regular">Subsistema de</p>
+                            <p class="bold">Capacitación y Evaluación</p>
+                            <p class="bold">del Desempeño</p>
+                            <hr class="verde-ch">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-1"></div>
+        </div>
+    </div>
+    <!-- CONTACTO 2-->
+    <div class="bg-degradado py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 co-md-12 col-lg-3"></div>
+                <div class="col-12 col-sm-12 co-md-12 col-lg-6">
+                    <div class="contacto">
+                        <div class=" " data-aos="fade-down" data-aos-delay="500" data-aos-duration="1300">
+                            <h1 class="bold mb-4">Contáctanos</h1>
+                            <a href="https://api.whatsapp.com/send?phone=523330045181" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                <h5 class="bold">33 3004 5181</h5>
+                            </a>
+                            <a href="mailto:hello@beirat.mx" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                <h5 class="bold mb-5">hello@beirat.mx</h5>
+                            </a>
+                        </div>
+                        <form class="" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1300">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="mb-5">
+                                        <label for="name" class="form-label">Nombre Completo*</label>
+                                        <input type="text" class="form-control" id="name" name="name" required/>
+                                      </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="mb-5">
+                                        <label for="email" class="form-label">Correo Electrónico*</label>
+                                        <input type="email" class="form-control" id="email" name="email" required/>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="mb-5">
+                                        <label for="phone" class="form-label">Teléfono</label>
+                                        <input type="text" class="form-control" id="phone" name="phone"/>
+                                      </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="mb-5">
+                                        <label for="company" class="form-label">Empresa</label>
+                                        <input type="text" class="form-control" id="company" name="company" />
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="mb-5">
+                                <label for="message">Mensaje</label>
+                                <textarea class="form-control" id="message" name="message" style="height: 50px"></textarea>
+                            </div>
+                            <div class="text-end">
+                                <button type="submit" class="btn btn-primary btn-contacto">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 co-md-12 col-lg-3"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="bg-negro py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                        <div class="regular txt-footer">
+                            <img src="img/logo-bco.png" alt="Beirat* 360" class="img-fluid"/>
+                            <p>Implementamos políticas y procesos</p>
+                            <p>que dan estructura y estrategia a </p>
+                            <p>departamentos de recursos humanos a </p>
+                            <p>través de métodos probados y</p>
+                            <p>herramientas digitales.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                        <div class="menu">
+                            <h5 class="bold mb-5">Menú</h5>
+                            <a href="#Inicio" class="a_none_style text-white">
+                                <h6 class="regular mb-4">Inicio</h6>
+                            </a>
+                            <a href="#conoce" class="a_none_style text-white">
+                                <h6 class="regular mb-4">Quiénes Somos</h6>
+                            </a>
+                            <a href="#Beneficios" class="a_none_style text-white">
+                                <h6 class="regular mb-4">Beneficios</h6>
+                            </a>
+                            <a href="#Contacto" class="a_none_style text-white">
+                                <h6 class="regular mb-4">Contáctanos</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                        <div class="legal">
+                            <h5 class="bold mb-5">Legal</h5>
+                            <a href="aviso.html" class="a_none_style text-white">
+                                <h6 class="regular mb-4">Aviso de privacidad</h6>
+                            </a>
+                            <a href="terminos.html" class="a_none_style text-white">
+                                <h6 class="regular mb-4">Términos y condiciones</h6>
+                            </a>
+                            <a href="cookies.html" class="a_none_style text-white">
+                                <h6 class="regular mb-4">Política de cookies</h6>
+                            </a>
+                            <!--<a href="" class="a_none_style text-white">
+                                <h6 class="regular mb-4">Soporte</h6>
+                            </a>-->
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                <div class="usuarios">
+                                    <h5 class="bold mb-5">Usuarios</h5>
+                                    <a href="" class="a_none_style text-white">
+                                        <h6 class="regular">Login</h6>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-4"></div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                <!--<div class="mb-4">
+                                    <a href="" class="a_none_style">
+                                        <img src="img/icono-fb.png" alt="FB: Beirat" class="img-fluid">
+                                    </a>
+                                </div>-->
+                                <!--<div class="mb-4">
+                                    <a href="" class="a_none_style">
+                                        <img src="img/icono-ig.png" alt="IG: Beirat" class="img-fluid">
+                                    </a>
+                                </div>-->
+                                <div class="mb-4">
+                                    <a href="" class="a_none_style">
+                                        <img src="img/icono-whats.png" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                        <div class="txt-derechos">
+                            <h6 class="regular">© 2022 Beirat 360º Todos los derechos reservados</h6>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5"></div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                        <div class="bb-logo">
+                            <a href="https://blueberry.mx/" class="a_none_style" target="_blank" rel="noopener noreferrer">
+                                <img src="img/materialized-blueberry.gif" alt="Materialized by Bleuberry" class="img-fluid"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <!-- LIBRERIA DE ANIMACIONES -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

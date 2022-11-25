@@ -46,6 +46,29 @@ html, body {
     background-color: #EDEDED;
     color: #000000;
 }
+.bg-footer{
+    background-color: #717171;
+    width: 100%;
+    height: 40px;
+}
+.bg-gris-eficiencia{
+    background-color: #EDEDED;
+    color: #000000;
+    height: 553px;
+}
+.bg-negro-problemas{
+    background-color: #000000;
+    color: #fff;
+    border-color: #000000;
+    height: 565px;
+}
+.bg-degradado-beneficios{
+    background: rgb(51,51,51);
+    background: radial-gradient(circle, rgba(51,51,51,1) 2%, rgba(0,0,0,1) 89%, rgba(0,0,0,1) 100%);
+    color: #fff;
+    width: 100%;
+    height: 90vh;
+}
 /* TERMINAN LOS BACKGROUNDS */
 /* TEXTOS */
 .txt-index{
@@ -62,7 +85,7 @@ html, body {
     line-height: 60%;
 }
 .txt-importancia p{
-    line-height: 60%;
+    line-height: 90%;
     color: #000000;
 }
 .txt-contacto-1 p{
@@ -88,6 +111,24 @@ html, body {
 .txt-aumentar-eficiencia p{
     line-height: 70%;
 }
+.txt-beneficios p{
+    line-height: 70%;
+}
+.txt-beneficios h6{
+    line-height: 70%;
+}
+.txt-metodologia p{
+    line-height: 60%;
+}
+.txt-footer p{
+    line-height: 60%;
+}
+.txt-derechos h6{
+    font-size: 13px;
+}
+.txt-index-cel{
+    margin-top: 10rem;
+}
 /* TERMINAN TEXTOS */
 /* ICONOS E IMÁGENES */
 .logo-medio{
@@ -105,12 +146,38 @@ html, body {
 .verde-ch{
     width: 100px;
     border: 1.5px solid #51A543;
+    background-color: #51A543;
+    color: #51A543;
+    opacity: 1;
+}
+.verde-md{
+    width: 190px;
+    border: 1.5px solid #51A543;
+    background-color: #51A543;
+    color: #51A543;
+    opacity: 1;
+}
+.verde-gde{
+    width: 190px;
+    border: 1.5px solid #51A543;
+    background-color: #51A543;
+    color: #51A543;
+    opacity: 1;
+    margin: auto;
+    margin-bottom: 5rem;
 }
 .computadora{
     position: relative;
 }
-.computadora img{
+.laptop{
     position: absolute;
+    top: 14%;
+    left: 0;
+    width: 60%;
+}
+.txt-footer img{
+    width: 180px;
+    margin-bottom: 2rem;
 }
 /* TERMINAN ICONOS E IMÁGENES */ 
 /* BOTONES */
@@ -182,4 +249,36 @@ html, body {
 .margen-img{
     margin-left: 2rem;
     margin-right: 2rem;
+}
+/* RESPONSIVO */
+@media only screen and (min-width:320px) and (max-width: 479px) {
+    .margen-{
+        margin-left: 0;
+    }
+    .txt-gran-eficiencia p{
+        line-height: 115%;
+    }
+    .txt-beneficios p{
+        line-height: 115%;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width: 767px) {
+    
+}
+
+@media only screen and (min-width:768px) and (max-width: 1023px) {
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+    .bg-degradado-beneficios{
+        height: 110vh;
+    }
+    .laptop{
+        top: 12%;
+    }
 }
