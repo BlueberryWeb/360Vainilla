@@ -188,6 +188,34 @@ html, body {
     width: 200px;
     font-family: 'IBM Plex Sans Regular';
 }
+.btn-conoce:hover{
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 0;
+    width: 200px;
+    font-family: 'IBM Plex Sans Regular';
+}
+.btn-contacto:hover{
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 0;
+    width: 200px;
+    font-family: 'IBM Plex Sans Regular';
+}
+.btn-conoce:focus{
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 0;
+    width: 200px;
+    font-family: 'IBM Plex Sans Regular';
+}
+.btn-contacto:focus{
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 0;
+    width: 200px;
+    font-family: 'IBM Plex Sans Regular';
+}
 .btn-contacto{
     background: transparent;
     border: 3px solid #fff;
